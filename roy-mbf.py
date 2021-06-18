@@ -317,11 +317,9 @@ def public():
 				continue
 			else:
 				if len(ss) == 1 and len(ss) == 2 and len(ss) == 3 and len(ss) == 4 or len(ss) == 5:
-					pwx.append(ss)
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
 				else:
-					pwx.append(ss)
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
 					pwx.append("sayang")
@@ -410,11 +408,9 @@ def followers():
 				continue
 			else:
 				if len(ss) == 1 and len(ss) == 2 and len(ss) == 3 and len(ss) == 4 or len(ss) == 5:
-					pwx.append(ss)
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
 				else:
-					pwx.append(ss)
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
 					pwx.append("sayang")
@@ -503,11 +499,9 @@ def reaction():
 				continue
 			else:
 				if len(ss) == 1 and len(ss) == 2 and len(ss) == 3 and len(ss) == 4 or len(ss) == 5:
-					pwx.append(ss)
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
 				else:
-					pwx.append(ss)
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
 					pwx.append("sayang")
