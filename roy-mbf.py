@@ -50,7 +50,7 @@ pwx = []
 
 s = requests.Session()
 rgb = random.choice(['\x1b[0;91m', '\x1b[0;92m', '\x1b[0;93m', '\x1b[0;94m', '\x1b[0;95m', '\x1b[0;96m', '\x1b[0;97m', '\x1b[0m'])
-ua = s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
+ua = "Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36"
 ip = s.get('https://api-asutoolkit.cloudaccess.host/ip.php').text
 durasi = str(datetime.now().strftime('%d-%m-%Y'))
 	
@@ -70,7 +70,7 @@ bu = current.month
 ha = current.day
 op = bulan[nTemp]
 def __cekfol__():
-	ua = s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
+	ua = "Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36"
 	os.system("clear")
 	try:
 		token = open('/results')
@@ -79,15 +79,15 @@ def __cekfol__():
 		os.system("-mkdir /results")
 		bot_komen()
 def logo():
-	s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
+	ua = "Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36"
 #	__cekfol__()
 #	os.system("mkdir /results")
 	try:
 		token = open('.ua.txt')
 		token = open('.ua')
 	except (KeyError,IOError):
-		os.system("echo 'Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36', >> .ua.txt")
-		os.system("echo 'Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36', >> .ua")
+		os.system("echo 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36', >> .ua.txt")
+		os.system("echo 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36', >> .ua")
 	os.system("clear")
 	print(""" \x1b[1;92m           
 ╦═╗╔═╗╦ ╦   ╔╦╗╔╗ ╔═╗
@@ -129,7 +129,7 @@ def cookie():
 	cookie = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] Masukan Cookies : \033[0;96m")
 	try:
 		data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = {
-		'user-agent'                : 'Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36', # Jangan Di Ganti Ea Anjink.
+		'user-agent'                : 'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36', # Jangan Di Ganti Ea Anjink.
 		'referer'                   : 'https://m.facebook.com/',
 		'host'                      : 'm.facebook.com',
 		'origin'                    : 'https://m.facebook.com',
