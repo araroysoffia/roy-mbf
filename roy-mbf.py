@@ -70,7 +70,7 @@ bu = current.month
 ha = current.day
 op = bulan[nTemp]
 def __cekfol__():
-	ua = s.get("https://raw.githubusercontent.com/Dumai-200/Server-Dmbf/main/ua.txt").text.strip()
+	ua = s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
 	os.system("clear")
 	try:
 		token = open('/results')
@@ -79,7 +79,7 @@ def __cekfol__():
 		os.system("-mkdir /results")
 		bot_komen()
 def logo():
-	s.get("https://raw.githubusercontent.com/Dumai-200/Server-Dmbf/main/ua.txt").text.strip()
+	s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
 #	__cekfol__()
 #	os.system("mkdir /results")
 	try:
